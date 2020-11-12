@@ -1,3 +1,2 @@
 #!/usr/bin/env ruby
-
-#4 build a CLI that uses a single method call to execute
+require_relative '../lib/turn'
