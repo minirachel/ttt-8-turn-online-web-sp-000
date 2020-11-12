@@ -1,5 +1,3 @@
-#1 build a method composed of many other previously defined methods (helpers)
-#2 Use method return values to control logic??
 #3 use an input validation loop/recursion to create a loop
 
 #def turn
@@ -33,7 +31,7 @@ def move(board, index, value="X")
   board[index] = value
 end
 
-#####
-def input_to_index(user_input)
-  user_input.to_i - 1
-end
+##### index adjust
+#def input_to_index(user_input)
+#  user_input.to_i - 1
+#end
