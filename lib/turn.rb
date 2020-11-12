@@ -11,7 +11,7 @@ def turn(board)
   if valid_move?(board,index)
     move(board, index, value="X")
   else
-    puts "try again"
+    turn(board)
   end
   #convert position to an index
   #is move valid?
