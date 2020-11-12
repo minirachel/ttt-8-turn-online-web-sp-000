@@ -1,7 +1,10 @@
 #!/usr/bin/env ruby
 require_relative '../lib/turn'
 
+board = [" "," "," "," "," "," "," "," "," "]
+
 puts "Welcome to tic tac toe!"
+display_board(board)
 
 puts "Please enter 1-9:"
 user_input = gets.strip
