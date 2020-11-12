@@ -1,19 +1,16 @@
 #3 use an input validation loop/recursion to create a loop
 
-#def turn
-#end
-  #ask user for their move by position 1-9
+
+def turn(board)
+#ask user for their move by position 1-9
+  puts "Please enter 1-9:"
   #receive user input
   #convert position to an index
   #is move valid?
     #yes- make move and display board
     #no- ask for different move
-
-
-
-def turn(board)
-  puts "Please enter 1-9:"
 end
+
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
