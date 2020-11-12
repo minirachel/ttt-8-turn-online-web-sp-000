@@ -10,7 +10,7 @@ def turn(board)
     move(board, index, value="X")
   else
     puts "Invalid move. Please enter 1-9:"
-  end
+  end 
   #is move valid?
     #yes- make move and display board
     #no- ask for different move
