@@ -6,3 +6,6 @@ board = [" "," "," "," "," "," "," "," "," "]
 puts "Welcome to tic tac toe!"
 display_board(board)
 turn(board)
+
+user_input = gets.strip
+index = input_to_index(user_input)
