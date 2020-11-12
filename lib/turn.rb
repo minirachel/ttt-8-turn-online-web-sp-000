@@ -8,10 +8,11 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
 
-#  if valid_move?(board,index)
-#    move(board, index, value="X")
-#  else
-
+  if valid_move?(board,index)
+    move(board, index, value="X")
+  else
+    puts "try again"
+  end
   #convert position to an index
   #is move valid?
     #yes- make move and display board
