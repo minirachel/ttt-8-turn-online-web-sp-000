@@ -2,8 +2,8 @@
 #2 Use method return values to control logic??
 #3 use an input validation loop/recursion to create a loop
 
-def turn
-end
+#def turn
+#end
   #ask user for their move by position 1-9
   #receive user input
   #convert position to an index
@@ -12,7 +12,6 @@ end
     #no- ask for different move
 
 def display_board
-
 end
 
 def valid_move?
