@@ -6,6 +6,10 @@ def turn(board)
   puts "Please enter 1-9:"
   #receive user input
   #convert position to an index
+  if input_to_index(user_input) == validmove?(board,index)
+    move(board, index, value="X")
+  else
+    puts "Invalid move. Please enter 1-9:"
   #is move valid?
     #yes- make move and display board
     #no- ask for different move
