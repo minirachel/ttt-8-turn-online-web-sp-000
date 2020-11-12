@@ -3,7 +3,9 @@
 
 def turn(board)
 #ask user for their move by position 1-9
-  puts "Please enter 1-9:"
+  until valid_move?(board,index)
+    puts "Please enter 1-9:"
+    
   #receive user input
   #convert position to an index
   #is move valid?
