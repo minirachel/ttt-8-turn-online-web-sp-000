@@ -9,3 +9,13 @@
   #is move valid?
     #yes- make move and display board
     #no- ask for different move
+
+def display_board
+
+end
+
+def valid_move?
+end
+
+def position_taken?
+end
