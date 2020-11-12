@@ -9,7 +9,7 @@
     #yes- make move and display board
     #no- ask for different move
 
-board = [" "," "," "," "," "," "," "," "," "]
+
 
 #def turn
 
